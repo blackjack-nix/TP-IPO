@@ -8,6 +8,7 @@
  * 
  * @author  Michael Kolling and David J. Barnes
  * @author  mod.by Denis BUREAU
+ * @author  mod.by Théo PERESSE-GOURBIL
  * @version 2006.03.30/2012.02.06
  */
 public class Maison
