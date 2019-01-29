@@ -1,17 +1,15 @@
 
 /**
- * Write a description of class Calc here.
+ * Classe de calcul nulle qui sert a rien
  *
  * @author Théo Péresse-Gourbil
  * @version 1.0
  */
-public class Calc
-{
+public class Calc {
     private static double aResult;
     
-    public static double expression(){
-        
-        return aResult;
+    public static void expression(){
+       System.out.println("expression");
     }
     
     public static double racNeg(int pEntier){
@@ -27,5 +25,9 @@ public class Calc
             System.out.println(pEntier/i);
             i = i * 2;
         }
+    }
+    
+    public static boolean sontProches (final double p1 , final double p2){      
+        return Math.abs(p1 - p2) < 10E-9;
     }
 }
